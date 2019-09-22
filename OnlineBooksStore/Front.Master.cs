@@ -13,5 +13,18 @@ namespace OnlineBooksStore
         {
 
         }
+        protected void Switch_Navigation(object sender, EventArgs e)
+        {
+            menuPanel.Attributes.Add("style", "display:none");
+            mainPanel.Attributes.Add("style", "display:block");
+        }
+
+        protected void Switch_Navigation_back(object sender, EventArgs e)
+        {
+            menuPanel.Attributes.Add("style", "display:block");
+            mainPanel.Attributes.Add("style", "display:none");
+        }
+
+
     }
 }

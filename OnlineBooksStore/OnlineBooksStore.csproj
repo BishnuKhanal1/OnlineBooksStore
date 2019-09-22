@@ -71,6 +71,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\customApp.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -88,6 +89,11 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="AddBooks.aspx" />
+    <Content Include="Addmember.aspx" />
+    <Content Include="BookCart.aspx" />
+    <Content Include="Memberpage.aspx" />
+    <Content Include="Dealspage.aspx" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -143,6 +149,41 @@
     </Compile>
     <Compile Include="Logoutpage.aspx.designer.cs">
       <DependentUpon>Logoutpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddBooks.aspx.cs">
+      <DependentUpon>AddBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBooks.aspx.designer.cs">
+      <DependentUpon>AddBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Addmember.aspx.cs">
+      <DependentUpon>Addmember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Addmember.aspx.designer.cs">
+      <DependentUpon>Addmember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookCart.aspx.cs">
+      <DependentUpon>BookCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookCart.aspx.designer.cs">
+      <DependentUpon>BookCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Memberpage.aspx.cs">
+      <DependentUpon>Memberpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Memberpage.aspx.designer.cs">
+      <DependentUpon>Memberpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealspage.aspx.cs">
+      <DependentUpon>Dealspage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealspage.aspx.designer.cs">
+      <DependentUpon>Dealspage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
