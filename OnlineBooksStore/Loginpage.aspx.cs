@@ -13,5 +13,16 @@ namespace OnlineBooksStore
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Memberpage.aspx");
+        }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }
